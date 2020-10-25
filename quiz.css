@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+body {
+    font-family: 'Kavoon', cursive;
+    color: black;
+    background-image: url("https://img.freepik.com/free-photo/brown-marble-texture-background-abstract-marble-texture_34936-402.jpg?size=626&ext=jpg");
+}
+
+.anker {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: pink;
+}
+
+header {
+    font-size: 2em;
+    text-align: center;
+}
+
+.que {
+  font-size: 1.3em;
+  text-align: center;
+}
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<style>
+body {
+      transition: background-color .5s;
+    }
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    .sidenav a:hover {
+      color: #F1F1F1;
+    }
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    #main {
+      transition: margin-left .5s;
+      padding: 16px;
+    }
+  
+    #here {
+      text-align: center;
+    }
+  
+  </style>
+
+<body>
+    
+    <div class="direction" id="here">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776;
+          MENU!</span>
+    </div>
+    <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="region.html">Countries</a>
+    <a href="climate.html">Climate</a>
+    <a href="flora.html">Flora</a>
+    <a href="animal.html">Animal</a>
+    <a href="quiz.html">Quiz</a>
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+    <br>
+      
+
+    <header class="heading">
+        <h1>Let's have a quiz on Asia </h1>
+    </header>
+ <br> <br>
+       <div class="que">
+    <label for="question">1. Asia is located in which hemisphere?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Northern</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Southern</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Eastern</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Western</label>
+    <br> <br>
+
+    <label for="answer">2. Which is the highest peak in Asia? </label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Manaslu</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Lhotse</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Mount Everest</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Makalu</label>
+    <br> <br>
+
+    <label for="answer">3. Which country is the richest country in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Macau</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Singapore</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Brunei</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Qatar</label>
+    <br> <br>
+
+    <label for="answer">4. How many countries are there in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. 34</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. 98</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. 65</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. 48</label>
+    <br> <br>
+
+    <label for="answer">5. Which is the oldest country in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. India</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Nepal</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. China</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Bangladesh</label>
+    <br> <br>
+
+    <label for="answer">6. What is the most common language spoken in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Mandarin</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Hindi</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Bangla</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Arabic</label>
+    <br> <br>
+
+    <label for="answer">7. Which country has the strongest economy in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Japan</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. China</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Nepal</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Singapore</label>
+    <br> <br>
+
+    <label for="answer">8. Which country in Asia receives the highest rainfall?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. India</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Qatar</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Turkey</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Myanmar</label>
+    <br> <br>
+
+    <label for="answer">8. Which country in Asia has the highest population?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Thailand</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. Iran</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Philippines</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. China</label>
+    <br> <br>
+
+    <label for="answer">10. Which country in Asia has the most rivers?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. Armenia</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. China</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. Bhutan</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. Maldives</label>
+    <br> <br>
+    
+    <label for="answer">11. How many mountains are there in Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. 100</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. 98</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. 130</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. 127</label>
+    <br><br>
+
+    <label for="answer">12. What is the population of Asia?</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">A. 4,653,442,937</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">B. 3,754,28,321</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">C. 1,303,568,670</label>
+    <br>
+    <input type="checkbox" name="tick" id="tick">
+    <label for="answer">D. 12,747,890,267</label>
+ <br> <br>
+    <a class="anker" href="./answer.html"> Answers </a>
+</div>
+</body>
+<script src="./quiz.js"></script>
+</html>
